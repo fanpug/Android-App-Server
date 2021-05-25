@@ -4,9 +4,9 @@ Este repositorio fue creado para el proyecto del tercer parcial de la materia de
 ## Descripción de los problemas
 Para el tercer parcial se requiere realizar un proyecto para la plataforma Android que cumpla las siguientes características:
 
-  a) Debe implementar una interfaz visual que muestre los datos de su curriculum. (nombre completo, bio, educación y lista de habilidades)
+    a) Debe implementar una interfaz visual que muestre los datos de su curriculum. (nombre completo, bio, educación y lista de habilidades)
 
-  b) Los datos deben provenir del servidor web creado en el proyecto del parcial II la ruta es /{matricula} (debe haber una ruta por cada integrante).
+    b) Los datos deben provenir del servidor web creado en el proyecto del parcial II la ruta es /{matricula} (debe haber una ruta por cada integrante).
 
 Se debe entregar una actividad que funcione como menú y que lleve a cada curriculum de cada miembro del equipo.
 
