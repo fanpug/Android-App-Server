@@ -1,6 +1,7 @@
 # Proyecto Tercer Parcial
 Este repositorio fue creado para el proyecto del tercer parcial de la materia de Desarrollo Basado en Plataformas por Humberto Alejandro Navarro Andujo. El link al repositorio de la aplicacion de android es https://github.com/fanpug/Android-Curriculum-App.
 
+
 ## Descripción de los problemas
 Para el tercer parcial se requiere realizar un proyecto para la plataforma Android que cumpla las siguientes características:
 
@@ -14,7 +15,7 @@ Entregable: Cada miembro del equipo deberá subir la liga de su repositorio en g
 
 
 ## Prerequisitos
-Para ejecutar el servidor en la terminal de linux se debe de contar con alguna version de Node.js. Para compilar y emular la aplicacion se debe contar con el programa de Android Studio.
+Para ejecutar el servidor en la terminal de linux se debe de contar con alguna version de **Node.js**. Para compilar y emular la aplicacion se debe contar con el programa de **Android Studio**.
 
 
 ### Instalando
@@ -33,21 +34,36 @@ sudo apt-get install nodejs
 
 
 ## Corriendo pruebas
-Para correr el servidor por si solo se ejecuta el siguiente comando en la terminal de linux:
+Para correr el servidor local, solo se ejecuta el siguiente comando en la terminal de linux:
 ```
 node app.js
 ```
+
+
+
 Una vez que el servidor se este ejecutando, se puede verificar que el sitio web esta activo al ir a la siguiente direccion dentro del navegador:
 ```
 localhost:8888/
 ```
-Una vez que nuestro servidor este corriendo, en otra terminal dentro de la misma carpeta escribiremos el siguiendo comando:
+Una vez que nuestro servidor este corriendo, en otra terminal dentro de la misma carpeta escribiremos el siguiendo comando
 ```
 ./ngrok http 8888
 ```
-El cual permitira al programa de **ngrok** hacer un tunel desde nuestro puerto local 8888 hacia el mundo. Una vez ejecutado este comando, la pantalla de la terminal cambiara y nos mostrara dos enlaces similares con la unica diferencia siendo que uno es *http* y el otro es *https*.
+el cual permitira al programa de **ngrok** hacer un tunel desde nuestro puerto local 8888 hacia el mundo.
 
-Tomaremos el enlace **https** e iremos al programa de Android Studio donde abriremos nuestro proyecto.
+Una vez ejecutado este comando, la pantalla de la terminal cambiara y nos mostrara dos enlaces similares con la unica diferencia siendo que uno es *http* y el otro es *https*.
+
+
+
+Tomaremos el enlace **https** e iremos al programa de *Android Studio* donde abriremos el proyecto de la [aplicacion](https://github.com/fanpug/Android-Curriculum-App).
+
+Para que nuestra aplicacion pueda funcionar de manera correcta simplemente se deben de cambiar los enlaces de ngrok dentro de la actividad principal (MainActivity.java).
+
+Una vez que se realicen esos cambios, se corre la aplicacion y se abre la pantalla principal:
+
+
+
+En la pantalla principal se tienen 3 botones, cada boton invoca un curriculum diferente del servidor:
 
 
 ## Construido con
