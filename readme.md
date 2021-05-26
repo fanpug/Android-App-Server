@@ -71,6 +71,8 @@ En la pantalla principal se tienen 3 botones, cada boton invoca un curriculum di
 
 ![image](https://user-images.githubusercontent.com/10736003/119590494-17606400-bd92-11eb-96b3-7acbf176ec75.png)
 
+![image](https://user-images.githubusercontent.com/10736003/119718394-bfbf0880-be24-11eb-9c0f-b330f61acdc6.png)
+
 ## Construido con
 * Nano - Editor de texto
 * Atom - Editor de texto
