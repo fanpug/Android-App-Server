@@ -39,7 +39,7 @@ Para correr el servidor local, solo se ejecuta el siguiente comando en la termin
 node app.js
 ```
 
-
+![image](https://user-images.githubusercontent.com/10736003/119588572-52f92f00-bd8e-11eb-9098-2302d646b5fc.png)
 
 Una vez que el servidor se este ejecutando, se puede verificar que el sitio web esta activo al ir a la siguiente direccion dentro del navegador:
 ```
@@ -53,7 +53,7 @@ el cual permitira al programa de **ngrok** hacer un tunel desde nuestro puerto l
 
 Una vez ejecutado este comando, la pantalla de la terminal cambiara y nos mostrara dos enlaces similares con la unica diferencia siendo que uno es *http* y el otro es *https*.
 
-
+![image](https://user-images.githubusercontent.com/10736003/119588696-99e72480-bd8e-11eb-80ca-ffa64d52e5e1.png)
 
 Tomaremos el enlace **https** e iremos al programa de *Android Studio* donde abriremos el proyecto de la [aplicacion](https://github.com/fanpug/Android-Curriculum-App).
 
@@ -61,9 +61,10 @@ Para que nuestra aplicacion pueda funcionar de manera correcta simplemente se de
 
 Una vez que se realicen esos cambios, se corre la aplicacion y se abre la pantalla principal:
 
-
+![image](https://user-images.githubusercontent.com/10736003/119588773-b6835c80-bd8e-11eb-996d-9dcd076d337a.png)
 
 En la pantalla principal se tienen 3 botones, cada boton invoca un curriculum diferente del servidor:
+
 
 
 ## Construido con
