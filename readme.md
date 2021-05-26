@@ -67,7 +67,9 @@ Una vez que se realicen esos cambios, se corre la aplicacion y se abre la pantal
 
 En la pantalla principal se tienen 3 botones, cada boton invoca un curriculum diferente del servidor:
 
+![image](https://user-images.githubusercontent.com/10736003/119590565-3b23aa00-bd92-11eb-82d5-77efefc81b64.png)
 
+![image](https://user-images.githubusercontent.com/10736003/119590494-17606400-bd92-11eb-96b3-7acbf176ec75.png)
 
 ## Construido con
 * Nano - Editor de texto
