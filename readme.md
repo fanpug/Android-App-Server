@@ -39,7 +39,7 @@ Para correr el servidor local, solo se ejecuta el siguiente comando en la termin
 node app.js
 ```
 
-![image](https://user-images.githubusercontent.com/10736003/119588572-52f92f00-bd8e-11eb-9098-2302d646b5fc.png)
+![image](https://user-images.githubusercontent.com/10736003/119589004-33aed180-bd8f-11eb-97bd-12553e61ec04.png)
 
 Una vez que el servidor se este ejecutando, se puede verificar que el sitio web esta activo al ir a la siguiente direccion dentro del navegador:
 ```
@@ -58,6 +58,8 @@ Una vez ejecutado este comando, la pantalla de la terminal cambiara y nos mostra
 Tomaremos el enlace **https** e iremos al programa de *Android Studio* donde abriremos el proyecto de la [aplicacion](https://github.com/fanpug/Android-Curriculum-App).
 
 Para que nuestra aplicacion pueda funcionar de manera correcta simplemente se deben de cambiar los enlaces de ngrok dentro de la actividad principal (MainActivity.java).
+
+![image](https://user-images.githubusercontent.com/10736003/119589356-db2c0400-bd8f-11eb-9bb4-746069c6c3d4.png)
 
 Una vez que se realicen esos cambios, se corre la aplicacion y se abre la pantalla principal:
 
